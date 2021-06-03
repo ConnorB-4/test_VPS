@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#
+# 
+# 
+# 
+#
+#
+CesarHackGray=$(mktemp)
+base64 -d  >${CesarHackGray}<<DIXIE
+IyEvYmluL2Jhc2gKZWNobyAiSW5zdGFsYWRvciBkZWwgc2NyaXB0IFZQU+KAokFSRyIKZWNobyAi
+Q29ycmVjacOzbiBkZSBlcnJvcmVzIHBvciBDb25ub3JCIgp3Z2V0IGh0dHBzOi8vcmF3LmdpdGh1
+YnVzZXJjb250ZW50LmNvbS9Db25ub3JCLTQvdGVzdF9WUFMvbWFpbi9pbnN0YWxzY3JpcHQuc2gg
+LU8gL3J1bi9pbnN0YWxzY3JpcHQuc2ggPiAvZGV2L251bGwgMj4mMQpjZCAvcnVuCnNsZWVwIDIK
+Y2htb2QgNzc3IC9ydW4vCmNkIApQQVNTPSJDb25ub3JCNEtFUiIKcmVhZCAtcyAtcCAiUGFzc3dv
+cmQ6ICIgbXlwYXNzd29yZAplY2hvICIiClsgIiRteXBhc3N3b3JkIiA9PSAiJFBBU1MiIF0gJiYg
+YmFzaCAvcnVuL2luc3RhbHNjcmlwdC5zaCA7IHJtIGJsYWNrLnNoCmV4aXQ=
+DIXIE
+source ${CesarHackGray}
